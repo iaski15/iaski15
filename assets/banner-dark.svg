@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-label="iaski15">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1F1915"/><stop offset="1" stop-color="#161210"/>
+    </linearGradient>
+    <style>
+      .fade { animation: f 0.9s ease-out both; }
+      .d1 { animation-delay: .15s } .d2 { animation-delay: .3s }
+      @keyframes f { from { opacity: 0; transform: translateY(6px) } to { opacity: 1; transform: none } }
+      .bob { animation: b 3.6s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+      @keyframes b { 0%,100% { transform: rotate(0deg) } 50% { transform: rotate(-4deg) } }
+      @media (prefers-reduced-motion: reduce) { .fade, .bob { animation: none } }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="998" height="258" rx="22" fill="url(#g)" stroke="#3A2E24" stroke-width="2"/>
+  <circle cx="160" cy="130" r="92" fill="#33271D"/>
+  <g class="bob">
+  <g>
+    <polygon points="111.1,118.9 118.9,70.0 148.9,95.1" fill="#E8A55B"/>
+    <polygon points="208.9,118.9 201.1,70.0 171.1,95.1" fill="#E8A55B"/>
+    <polygon points="122.3,106.3 124.8,81.7 140.8,96.6" fill="#FFF4E6"/>
+    <polygon points="197.7,106.3 195.2,81.7 179.2,96.6" fill="#FFF4E6"/>
+    <ellipse cx="160.0" cy="142.2" rx="55.9" ry="48.5" fill="#E8A55B"/>
+    <ellipse cx="160.0" cy="164.3" rx="39.9" ry="24.8" fill="#FFF4E6"/>
+    <circle cx="140.8" cy="121.6" r="4.5" fill="#FFF4E6"/>
+    <circle cx="179.2" cy="121.6" r="4.5" fill="#FFF4E6"/>
+    <circle cx="142.2" cy="137.7" r="6.6" fill="#2B2B2B"/>
+    <circle cx="177.8" cy="137.7" r="6.6" fill="#2B2B2B"/>
+    <ellipse cx="130.5" cy="153.9" rx="7.4" ry="4.3" fill="#F5B5A8"/>
+    <ellipse cx="189.5" cy="153.9" rx="7.4" ry="4.3" fill="#F5B5A8"/>
+    <ellipse cx="160.0" cy="152.3" rx="6.6" ry="4.7" fill="#2B2B2B"/>
+    <path d="M151.0,159.8 Q155.5,164.7 160.0,158.0 Q164.5,164.7 169.0,159.8"
+          fill="none" stroke="#2B2B2B" stroke-width="2.5" stroke-linecap="round"/>
+  </g></g>
+  <g fill="#E8A55B" opacity="0.18" transform="translate(880,52) rotate(20)"><ellipse cx="0" cy="8" rx="11" ry="9"/><circle cx="-11" cy="-6" r="4.5"/><circle cx="-4" cy="-12" r="4.5"/><circle cx="4" cy="-12" r="4.5"/><circle cx="11" cy="-6" r="4.5"/></g><g fill="#E8A55B" opacity="0.14" transform="translate(930,104) rotate(30)"><ellipse cx="0" cy="8" rx="11" ry="9"/><circle cx="-11" cy="-6" r="4.5"/><circle cx="-4" cy="-12" r="4.5"/><circle cx="4" cy="-12" r="4.5"/><circle cx="11" cy="-6" r="4.5"/></g><g fill="#E8A55B" opacity="0.11" transform="translate(884,158) rotate(15)"><ellipse cx="0" cy="8" rx="11" ry="9"/><circle cx="-11" cy="-6" r="4.5"/><circle cx="-4" cy="-12" r="4.5"/><circle cx="4" cy="-12" r="4.5"/><circle cx="11" cy="-6" r="4.5"/></g><g fill="#E8A55B" opacity="0.08" transform="translate(936,210) rotate(28)"><ellipse cx="0" cy="8" rx="11" ry="9"/><circle cx="-11" cy="-6" r="4.5"/><circle cx="-4" cy="-12" r="4.5"/><circle cx="4" cy="-12" r="4.5"/><circle cx="11" cy="-6" r="4.5"/></g>
+  <text class="fade" x="300" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="54" font-weight="800" fill="#F5ECE1">Hi, I'm iaski</text>
+  <text class="fade d1" x="302" y="154" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" fill="#BFAE9C">I build small, polished tools for Windows and Android —</text>
+  <text class="fade d1" x="302" y="182" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" fill="#BFAE9C">mostly in C# and TypeScript, usually with a shiba on them.</text>
+  <g class="fade d2" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="14" font-weight="600">
+    <rect x="302" y="208" width="100" height="28" rx="14" fill="#33271D"/><text x="352" y="227" text-anchor="middle" fill="#F2BC7E">C# / .NET</text><rect x="410" y="208" width="48" height="28" rx="14" fill="#33271D"/><text x="434" y="227" text-anchor="middle" fill="#F2BC7E">WPF</text><rect x="466" y="208" width="126" height="28" rx="14" fill="#33271D"/><text x="529" y="227" text-anchor="middle" fill="#F2BC7E">React Native</text><rect x="600" y="208" width="74" height="28" rx="14" fill="#33271D"/><text x="637" y="227" text-anchor="middle" fill="#F2BC7E">Kotlin</text><rect x="682" y="208" width="109" height="28" rx="14" fill="#33271D"/><text x="737" y="227" text-anchor="middle" fill="#F2BC7E">Win32 / PE</text>
+  </g>
+</svg>

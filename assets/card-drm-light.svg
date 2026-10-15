@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="200" viewBox="0 0 480 200" role="img" aria-label="DRM Detector">
+  <rect x="1" y="1" width="478" height="198" rx="16" fill="#FFFFFF" stroke="#F0D9BC" stroke-width="2"/>
+  <clipPath id="c"><rect x="1" y="1" width="478" height="198" rx="16"/></clipPath>
+  <rect x="0" y="0" width="7" height="200" fill="#E8A55B" clip-path="url(#c)"/>
+  <circle cx="44" cy="46" r="18" fill="#FCE8D0"/>
+  <g transform="translate(44,46)" fill="none" stroke="#C97F2E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="-2" cy="-2" r="6.5"/><path d="M3 3l6 6"/></g>
+  <text x="74" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="23" font-weight="750" fill="#2B2B2B">DRM Detector</text>
+  <text x="454" y="53" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" fill="#6B5A48">Windows</text>
+  <text x="28" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" fill="#6B5A48">Scans game executables for DRM &amp; packer</text><text x="28" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" fill="#6B5A48">signatures. GUI plus a scriptable --scan CLI.</text>
+  <g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="600"><rect x="28" y="152" width="38" height="28" rx="14" fill="#FCE8D0"/><text x="47" y="171" text-anchor="middle" fill="#8A5520">C#</text><rect x="74" y="152" width="68" height="28" rx="14" fill="#FCE8D0"/><text x="108" y="171" text-anchor="middle" fill="#8A5520">.NET 8</text><rect x="150" y="152" width="45" height="28" rx="14" fill="#FCE8D0"/><text x="173" y="171" text-anchor="middle" fill="#8A5520">WPF</text><rect x="203" y="152" width="45" height="28" rx="14" fill="#FCE8D0"/><text x="226" y="171" text-anchor="middle" fill="#8A5520">CLI</text></g>
+</svg>
