@@ -9,7 +9,7 @@
 
 ### 🐾 What I make
 
-Desktop and mobile apps that do one job well: a progressive-overload workout tracker with a watch app, a handful of Windows utilities for music and games, and the low-level bits underneath them — PE parsing, unpacking, and talking to APIs without a wrapper library.
+Desktop and mobile apps that do one job well: a progressive-overload workout tracker with a watch app, a music player with its own audio engine, a handful of Windows utilities for music and games, and the low-level bits underneath them — PE parsing, unpacking, and talking to APIs without a wrapper library.
 
 <table>
 <tr>
@@ -65,6 +65,17 @@ Desktop and mobile apps that do one job well: a progressive-overload workout tra
 </picture>
 </a>
 </td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/iaski15/ShibaPlayer">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/card-shibaplayer-dark.svg">
+  <img alt="ShibaPlayer" src="assets/card-shibaplayer-light.svg" width="100%">
+</picture>
+</a>
+</td>
+<td width="50%" valign="top"></td>
 </tr>
 </table>
 

@@ -113,6 +113,7 @@ ICON = {
     "patch": '<path d="M-8 -3l5 -5 11 11 -5 5z"/><path d="M-3 2l-5 5M2 -3l5 -5"/>',
     "tag": '<path d="M-9 -9h8l9 9 -8 8 -9 -9z"/><circle cx="-5" cy="-5" r="1.4"/>',
     "music": '<path d="M-4 6v-14l11 -2v13"/><circle cx="-7" cy="6" r="3"/><circle cx="4" cy="4" r="3"/>',
+    "bars": '<path d="M-8 8v-6M-4 8v-14M0 8v-9M4 8v-16M8 8v-5"/>',
     "scan": '<circle cx="-2" cy="-2" r="6.5"/><path d="M3 3l6 6"/>',
     "play": '<rect x="-10" y="-7" width="20" height="14" rx="4"/><path d="M-2 -3l5 3 -5 3z"/>',
 }
@@ -126,6 +127,10 @@ CARDS = [
      ["One-click Goldberg emulator patcher: PE analysis,",
       "in-process SteamStub unpacking, journalled undo."],
      ["C#", ".NET 4.8", "WinForms", "PE parsing"], "Windows"),
+    ("shibaplayer", "ShibaPlayer", "bars",
+     ["Music player with its own audio engine, VLC-style",
+      "effects, a visualizer and YouTube downloads."],
+     ["C#", ".NET 10", "WPF", "DSP"], "Windows"),
     ("shibatag", "ShibaTag", "tag",
      ["Cleans up music folders: fills missing tags from",
       "file names, finds covers, groups duplicates."],
